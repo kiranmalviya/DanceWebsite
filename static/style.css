@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bree+Serif&family=Josefin+Sans:ital,wght@0,400;1,300&family=Lobster&family=Oswald&family=Playfair+Display:wght@700&family=Roboto&family=Roboto+Slab&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    font-family: 'Bree Serif', serif;
+    background-color: #d43b3b;
+    padding: 18px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: #070707;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 35px;
+    background: center / cover no-repeat url("/static/dance.avif");
+    height: 425px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 35px;
+    padding: 2px;
+}
+
+#missionSection{ 
+    height: 335px;
+    background-color: white;
+}
+
+#missionSection h2{
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 210px;
+}
+
+.card h3{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    margin: 0px 12px;
+    margin-top: 24px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 150px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+
+.card-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+
+#sponsorsSection h2{
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsors{
+    height: 190px;
+    max-width: 1000px;
+    margin: 28px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+}
+
